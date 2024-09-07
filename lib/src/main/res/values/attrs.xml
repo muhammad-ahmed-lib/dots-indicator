@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DotsIndicatorView">
+        <attr name="selectedDotDrawable" format="reference"/> <!-- Custom drawable for selected dot -->
+        <attr name="unselectedDotDrawable" format="reference"/> <!-- Custom drawable for unselected dot -->
+        <attr name="selectedDotColor" format="color"/> <!-- Fallback color for selected dot -->
+        <attr name="unselectedDotColor" format="color"/> <!-- Fallback color for unselected dot -->
+        <attr name="dotSize" format="dimension"/>
+        <attr name="dotSpacing" format="dimension"/>
+        <attr name="dotIsCircle" format="boolean"/> <!-- Shape: Circle or Square -->
+    </declare-styleable>
+</resources>
